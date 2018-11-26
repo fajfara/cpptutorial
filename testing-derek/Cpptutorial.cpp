@@ -19,6 +19,13 @@ int main() {
     // conditional == != < > 
     // Logical && and, || or, ! not
 
+    // ARRAYS
+    int arrNums[10] = {1};
+    int arrnNums2[] = {1,2,3};
+    int arrnNums3[5] = {8,9};
+
+    std::cout << "1st Value : " << arrNums[0] << "\n";
+
     // 1 = 18, 21, 50, > 55
 
     /* std::string sAge = "0";
@@ -40,7 +47,7 @@ int main() {
         std::cout << "Not an important birthday\n";
     } */
 
-    std::string sAge = "0";
+    /* std::string sAge = "0";
     std::cout << "Enter the kids age: ";
     getline(std::cin, sAge);
     int nAge = std::stoi(sAge);
@@ -57,8 +64,8 @@ int main() {
 
     } else {
         std::cout << "Too young for school\n";
-        
-    }
+
+    } */
 
     
     /* 
